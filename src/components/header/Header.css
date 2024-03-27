@@ -1,0 +1,8 @@
+/* .bg-body-tertiary{
+    background-image: linear-gradient(to bottom right, rgb(94,27,137), rgb(244,81,44) ); 
+} */
+
+button.navbar-toggler.collapsed{
+    border: 0;
+
+}

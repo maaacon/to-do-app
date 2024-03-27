@@ -1,0 +1,161 @@
+h1{
+  font-family: ""Roboto Slab", serif";
+  font-weight: 700;
+  color:  rgb(94,27,137);
+  font-style: normal;
+  /* color: rgb(244, 81, 44); */
+  margin-top: 20px;
+}
+
+.home-bg{
+  background-image: linear-gradient(to bottom right, rgb(255 127 77) , rgb(157,113,188)); 
+  /* background-image: linear-gradient(to bottom right, rgb(244,81,44) , rgb(94,27,137));  */
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* ToDo List */
+p{
+  font-family: "Lato", sans-serif;;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+#todoList {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background: rgb(94, 27, 137);
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+/* rgb(157,113,188); */
+
+/* ToDo Wrapper */
+.ToDoWrapper{
+    align-items: center;
+    align-content: center;
+} 
+
+.form-bg{
+  /* background-color: rgba(0, 0, 0, 0.15); */
+  background-color: rgba(255, 255, 255, 0.45); 
+  /* background-color: rgba(94, 27, 137, 0.5); */
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ToDo Form */
+.taskName {
+    outline: none;
+    background: white;
+    border: 1px solid rgb(94, 27, 137);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 9.2px;
+    margin-top: 1rem;
+    margin-bottom: 15px;
+    width: 300px;
+    color: rgb(48, 48, 48);
+  }
+
+.todo-button{
+    background-color: rgb(94, 27, 137);
+    color: white;
+    font-weight: 400;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+
+}
+
+.todo-button:hover {
+    opacity: 0.7;
+}
+
+.todo-button:active {
+    opacity: 0.5;
+}
+
+
+/* Select All */
+.delete-all-button{
+  background-color: rgb(94, 27, 137);
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  transition: opacity 0.15s;
+
+}
+
+.delete-all-button:hover {
+  opacity: 0.7;
+}
+
+.delete-all-button:active {
+  opacity: 0.5;
+}
+
+.mark-all-button{
+  background-color: rgb(94, 27, 137);
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  transition: opacity 0.15s;
+
+}
+
+.mark-all-button:hover {
+  opacity: 0.7;
+}
+
+.mark-all-button:active {
+  opacity: 0.5;
+}
+
+
+
+
+.edit-modal{
+  align-content: center;
+}
+
+  .fa-trash{
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+
